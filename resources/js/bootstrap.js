@@ -10,6 +10,15 @@ window.axios = axios;
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /**
+ * Instantiate Alpine.js plugins
+ */
+import { Livewire, Alpine} from '../../vendor/livewire/livewire/dist/livewire.esm';
+import ui from '@alpinejs/ui';
+
+Alpine.plugin(ui);
+Livewire.start();
+
+/**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
  * allows your team to easily build robust real-time web applications.
