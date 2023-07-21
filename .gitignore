@@ -34,6 +34,8 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
+public/build
+
 ### Linux ###
 *~
 
@@ -357,8 +359,5 @@ $RECYCLE.BIN/
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
-public/build/manifest.json
 package-lock.json
-public/build/assets/app-0d91dc04.js
-public/build/assets/app-4ed993c7.js
 composer.lock
